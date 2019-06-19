@@ -1,1 +1,1 @@
-﻿Aynı yapıcı metod 
+﻿Komplex bir nesneyi adım adım oluşturmak için kullanılır. Builder arayüzü nesne yaratma işleminden bağımsız olarak nesnenin son halini oluşturur.

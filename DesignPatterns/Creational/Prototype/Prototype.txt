@@ -1,0 +1,1 @@
+﻿new operatörü ile oluşturulması maliyetli olan nesnelerin oluşturulmasını amaçlar.

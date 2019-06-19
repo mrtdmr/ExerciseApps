@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="Creational\Builder\Builder.cs" />
+    <Compile Include="Creational\Factory\Factory.cs" />
+    <Compile Include="Creational\Prototype\Prototype.cs" />
     <Compile Include="Creational\Singleton\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -54,6 +57,8 @@
   <ItemGroup>
     <Content Include="Creational\AbstractFactory\AbstractFactory.txt" />
     <Content Include="Creational\Builder\Builder.txt" />
+    <Content Include="Creational\Factory\Factory.txt" />
+    <Content Include="Creational\Prototype\Prototype.txt" />
     <Content Include="Creational\Singleton\Singleton.txt" />
   </ItemGroup>
   <ItemGroup />

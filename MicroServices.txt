@@ -1,0 +1,2 @@
+SOA:Service Oriented Architecture. Yazýlýmlar belli sorumluluklara ait servislere dönüþtürülür.
+SOA'yý daha tanecikli ve daha kullanýþlý hale getirmek için microservices oluþturulmuþtur. Örn Netflix

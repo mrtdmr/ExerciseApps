@@ -1,0 +1,2 @@
+﻿Kalıtımsal ilişkileri olan nesnelerin üretilmesi için kullanılır.
+Creator sınıfı client tarafından gelen isteğe göre hangi ürünün oluşturulacağına göre karar verir.
