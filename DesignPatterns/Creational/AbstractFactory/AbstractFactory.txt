@@ -1,0 +1,4 @@
+﻿İstemcinin ihtiyacı olan birbiri ile ilşkili nesnelerin oluşturulmasını sağlayan soyut fabrikalardır.
+İstemciler istedikleri nesnelere ilgili soyut fabrikaları kullanarak ulaşabilir.
+Dağıtık mimarilerde kullanılabilir, .net framewokte de kullanılır.
+Interface olarak da tanımlanabilir.

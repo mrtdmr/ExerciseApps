@@ -1,0 +1,2 @@
+﻿Bir sınıfa ait nesne örneğinin çalışma anında tek olmasını garantilemek.
+Constructor private olmalı. Bundaki amaç nesne örneği oluştururken, nesne örneğinin yapıcı metoddan oluşturulmasını engellemek.
