@@ -5,12 +5,10 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{526A3A7C-ACC3-42F2-8142-9B9010A20ABA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1F60F897-CC56-4987-9853-EFF64B8F72D1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{00CBC3B6-CC31-475B-9DE1-989F9F5495D9}"
 	ProjectSection(SolutionItems) = preProject
 		MicroServices.txt = MicroServices.txt
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{00CBC3B6-CC31-475B-9DE1-989F9F5495D9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductMicroservice", "ProductMicroservice\ProductMicroservice.csproj", "{0962EB34-79CB-4F52-9707-04D9685A4E60}"
 EndProject
