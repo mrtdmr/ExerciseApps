@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductMicroservice", "ProductMicroservice\ProductMicroservice.csproj", "{0962EB34-79CB-4F52-9707-04D9685A4E60}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Udemy-Master-Asp-Net-Core-2.0", "Udemy-Master-Asp-Net-Core-2.0", "{74D7811D-7F5F-43D9-8ACE-7C792C898D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookList", "BookList\BookList.csproj", "{A34997C5-56FE-4DE5-9F23-CCA7C8D63517}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,12 +30,17 @@ Global
 		{0962EB34-79CB-4F52-9707-04D9685A4E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0962EB34-79CB-4F52-9707-04D9685A4E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0962EB34-79CB-4F52-9707-04D9685A4E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34997C5-56FE-4DE5-9F23-CCA7C8D63517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34997C5-56FE-4DE5-9F23-CCA7C8D63517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34997C5-56FE-4DE5-9F23-CCA7C8D63517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34997C5-56FE-4DE5-9F23-CCA7C8D63517}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0962EB34-79CB-4F52-9707-04D9685A4E60} = {00CBC3B6-CC31-475B-9DE1-989F9F5495D9}
+		{A34997C5-56FE-4DE5-9F23-CCA7C8D63517} = {74D7811D-7F5F-43D9-8ACE-7C792C898D87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8970005-941E-41E9-A6A6-0BC43DF01E17}
