@@ -45,7 +45,7 @@ namespace Delegates
     }
     class PhotoProcessor
     {
-        public delegate void PhotoFilterHandler(Photo photo);
+        //public delegate void PhotoFilterHandler(Photo photo);
         //public void Process(string path,PhotoFilterHandler filterHandler)
         //{
         //    //System.Action<> 

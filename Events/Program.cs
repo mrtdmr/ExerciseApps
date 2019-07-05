@@ -57,7 +57,7 @@ namespace Events
         }
         protected virtual void OnVideoEncoded(Video video)
         {
-            //VideoEncoded?.Invoke(this, EventArgs.Empty); // VideoEncoded? kontrolü subscrible olup olmadığını kontro eder.
+            //VideoEncoded?.Invoke(this, EventArgs.Empty); // VideoEncoded? kontrolü subscrible olup olmadığını kontror eder.
             VideoEncoded?.Invoke(this, new VideoEventArgs { Video = video });
         }
     }
