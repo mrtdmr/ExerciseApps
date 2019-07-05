@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Generics
+﻿namespace Generics
 {
     public class Nullable<T> where T : struct
     {

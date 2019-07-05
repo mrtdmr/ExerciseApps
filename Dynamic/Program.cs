@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Dynamic
+﻿namespace Dynamic
 {
     class Program
     {

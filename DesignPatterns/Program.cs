@@ -1,11 +1,4 @@
-﻿
-using DesignPatterns.Creational.Factory;
-using DesignPatterns.Creational.Prototype;
-using DesignPatterns.Creational.Singleton;
-using System;
-using System.Collections.Generic;
-
-namespace DesignPatterns
+﻿namespace DesignPatterns
 {
     class Program
     {
