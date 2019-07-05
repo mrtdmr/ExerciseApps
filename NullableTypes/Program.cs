@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace NullableTypes
 {
@@ -30,6 +28,6 @@ namespace NullableTypes
     class MyList<T>
     {
         void Add(T value) { }
-        public T this[int index] { get { throw new NotImplementedException()}; }
+        public T this[int index] { get { throw new NotImplementedException(); } }
     }
 }

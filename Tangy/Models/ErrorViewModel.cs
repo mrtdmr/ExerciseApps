@@ -1,5 +1,3 @@
-using System;
-
 namespace Tangy.Models
 {
     public class ErrorViewModel
