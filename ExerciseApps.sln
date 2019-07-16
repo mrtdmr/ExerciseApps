@@ -52,7 +52,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events2", "Events2\Events2.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Udemy-CSharp-AdvancedTopics", "Udemy-CSharp-AdvancedTopics", "{F500B962-D7D6-4CC2-A76C-F93F211B9C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqAndLambdas", "LinqAndLambdas\LinqAndLambdas.csproj", "{6AF92F46-73D7-4EC8-BF50-85AEE14F631A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqAndLambdas", "LinqAndLambdas\LinqAndLambdas.csproj", "{6AF92F46-73D7-4EC8-BF50-85AEE14F631A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods2", "ExtensionMethods2\ExtensionMethods2.csproj", "{CAD3B84A-17F7-46E9-AB41-09F5E22C43A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -144,6 +146,10 @@ Global
 		{6AF92F46-73D7-4EC8-BF50-85AEE14F631A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AF92F46-73D7-4EC8-BF50-85AEE14F631A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AF92F46-73D7-4EC8-BF50-85AEE14F631A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD3B84A-17F7-46E9-AB41-09F5E22C43A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD3B84A-17F7-46E9-AB41-09F5E22C43A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD3B84A-17F7-46E9-AB41-09F5E22C43A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD3B84A-17F7-46E9-AB41-09F5E22C43A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +159,7 @@ Global
 		{A34997C5-56FE-4DE5-9F23-CCA7C8D63517} = {74D7811D-7F5F-43D9-8ACE-7C792C898D87}
 		{B2F9507A-9783-41A7-A46E-4B5C8A100013} = {74D7811D-7F5F-43D9-8ACE-7C792C898D87}
 		{6AF92F46-73D7-4EC8-BF50-85AEE14F631A} = {F500B962-D7D6-4CC2-A76C-F93F211B9C0F}
+		{CAD3B84A-17F7-46E9-AB41-09F5E22C43A3} = {F500B962-D7D6-4CC2-A76C-F93F211B9C0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8970005-941E-41E9-A6A6-0BC43DF01E17}
