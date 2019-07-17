@@ -10,7 +10,7 @@ namespace Generics2
 
         public int Count { get; private set; }
         public int Capacity { get; private set; }
-        public T this[int index]//this instance of MyList class.
+        public T this[int index]//this = instance of MyList class.
         {
             get { return items[index]; }
             set { items[index] = value; }
