@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace LinqAndLambdas
@@ -9,14 +10,21 @@ namespace LinqAndLambdas
         {
             #region Linq
 
-            //string sentence = "I love cats";
-            //string[] catNames = { "Lucky", "Bella", "Luna", "Oreo", "Simba", "Toby", "Loki", "Oscar" };
-            //int[] numbers = { 5, 6, 8, 7, 9, 35, 2, 87, 15, 97, 1, 57, 68, 550, 1250, 354 };
+            string sentence = "I love cats";
+            string[] catNames = { "Lucky", "Bella", "Luna", "Oreo", "Simba", "Toby", "Loki", "Oscar" };
+            int[] numbers = { 5, 6, 8, 7, 9, 35, 2, 87, 15, 97, 1, 57, 68, 550, 1250, 354 };
 
-            //var catsWithA = from cat in catNames
-            //                where cat.Contains("a") && cat.Length < 5
-            //                select cat;
-            //Console.WriteLine(string.Join(",", catsWithA));
+            var getTheNumbers = from number in numbers
+                                where number > 5
+                                where number < 20
+                                orderby number descending
+                                select number;
+            Console.WriteLine(string.Join(",", getTheNumbers));
+
+            var catsWithA = from cat in catNames
+                            where cat.Contains("a") && cat.Length < 5
+                            select cat;
+            Console.WriteLine(string.Join(",", catsWithA));
 
             //var getTheNumbers = from number in numbers
             //                    where number > 5 && number < 10
@@ -55,16 +63,16 @@ namespace LinqAndLambdas
 
             #region Lambda
 
-            string[] catNames = { "Lucky", "Bella", "Luna", "Oreo", "Simba", "Toby", "Loki", "Oscar" };
-            List<int> numbers = new List<int>() { 5, 6, 3, 2, 1, 5, 6, 7, 8, 4, 234, 54, 14, 653, 3, 4, 5, 6, 7 };
-            object[] mix = { 1, "string", 'd', new List<int>() { 1, 2, 3, 4 }, new List<int>() { 5, 2, 3, 4 }, "dd", 's', "Hello Kitty", 1, 2, 3, 4, };
-            List<Warrior> warriors = new List<Warrior>()
-            {
-                new Warrior() { Height = 100 },
-                new Warrior() { Height = 80 },
-                new Warrior() { Height = 100 },
-                new Warrior() { Height = 70 },
-            };
+            //string[] catNames = { "Lucky", "Bella", "Luna", "Oreo", "Simba", "Toby", "Loki", "Oscar" };
+            //List<int> numbers = new List<int>() { 5, 6, 3, 2, 1, 5, 6, 7, 8, 4, 234, 54, 14, 653, 3, 4, 5, 6, 7 };
+            //object[] mix = { 1, "string", 'd', new List<int>() { 1, 2, 3, 4 }, new List<int>() { 5, 2, 3, 4 }, "dd", 's', "Hello Kitty", 1, 2, 3, 4, };
+            //List<Warrior> warriors = new List<Warrior>()
+            //{
+            //    new Warrior() { Height = 100 },
+            //    new Warrior() { Height = 80 },
+            //    new Warrior() { Height = 100 },
+            //    new Warrior() { Height = 70 },
+            //};
 
             //Linq:
             //var oddNumbers = from n in numbers
@@ -102,7 +110,8 @@ namespace LinqAndLambdas
             //shortWarriors.ForEach(sw => Console.WriteLine(sw));
             #endregion
         }
-        private static int[] StringToIntArray(string array) {
+        private static int[] StringToIntArray(string array)
+        {
             int[] arrayFromString = array.Split(' ')
                                         .Select(element => int.Parse(element))
                                         .ToArray();

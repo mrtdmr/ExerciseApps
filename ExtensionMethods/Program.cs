@@ -10,7 +10,7 @@ namespace ExtensionMethods
         static void Main(string[] args)
         {
             string post = "This is supposed to be very long post....";
-            Console.WriteLine(post.Shorten(3));
+            Console.WriteLine("{0},{1}",post.Shorten(3), post.Uzunluk());
             
         }
     }
@@ -30,6 +30,9 @@ namespace Extensions
             if (words.Length <= numberofWords)
                 return str;
             return string.Join(" ", words.Take(numberofWords)) + "...";
+        }
+        public static int Uzunluk(this string str) {
+            return str.Length;
         }
     }
 }

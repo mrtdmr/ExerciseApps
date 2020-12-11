@@ -36,9 +36,11 @@ namespace LINQ
             var maxBook = books.Max(b => b.Price);
             var minBook = books.Min(b => b.Price);
             var total = books.Sum(b => b.Price);
-            Console.WriteLine(maxBook);
-            Console.WriteLine(minBook);
-            Console.WriteLine(total);
+            //Console.WriteLine(maxBook);
+            //Console.WriteLine(minBook);
+            //Console.WriteLine(total);
+
+
         }
     }
     class Book

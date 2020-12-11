@@ -31,10 +31,10 @@ namespace Generics2
             items[Count] = item;
             Count++;
         }
-        public static MyList<T> operator +(MyList<T> list1,MyList<T> list2)
+        public static MyList<T> operator +(MyList<T> list1, MyList<T> list2)
         {
             MyList<T> result = new MyList<T>();
-            if (list1.Count!=list2.Count)
+            if (list1.Count != list2.Count)
             {
                 throw new InvalidOperationException("Lists are of different sizes.");
             }
@@ -52,7 +52,7 @@ namespace Generics2
             string tempString = String.Empty;
             for (int i = 0; i < Count; i++)
             {
-                if (i<Count-1)
+                if (i < Count - 1)
                 {
                     tempString += items[i] + ", ";
                 }

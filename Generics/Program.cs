@@ -6,15 +6,30 @@ namespace Generics
     {
         static void Main(string[] args)
         {
-            var numbers = new GenericList<int>();
-            numbers.Add(10);
-            var books = new GenericList<Book>();
-            books.Add(new Book());
-            var dictionary = new GenericDictionary<string, Book>();
-            dictionary.Add("24874", new Book());
-            var number = new Nullable<int>();
-            Console.WriteLine("Has value? "+number.HasValue);
-            Console.WriteLine("Value " + number.GetValueOrDefault());
+            //var numbers = new GenericList<int>();
+            //numbers.Add(10);
+            //var books = new GenericList<Book>();
+            //books.Add(new Book());
+            //var dictionary = new GenericDictionary<string, Book>();
+            //dictionary.Add("24874", new Book());
+            //var number = new Nullable<int>();
+            //Console.WriteLine("Has value? "+number.HasValue);
+            //Console.WriteLine("Value " + number.GetValueOrDefault());
+            Person p1 = new Person() { Age = 2 };
+            Person p2 = new Person();
+            Console.WriteLine(AreEqual(p1, p2));
+        }
+        public static bool AreEqual<T>(T t1, T t2) where T : IComparable<T>
+        {
+            return t1.CompareTo(t2) == 0;
+        }
+    }
+    public class Person : IComparable<Person>
+    {
+        public int Age { get; set; }
+        public int CompareTo(Person other)
+        {
+            return Age == other.Age ? 0 : Age < other.Age ? -1 : 1;
         }
     }
     public class List
@@ -22,7 +37,7 @@ namespace Generics
         public void Add(int number) { }
         public int this[int index] { get { throw new NotImplementedException(); } }
     }
-    public class Book:Product
+    public class Book : Product
     {
         public string Isbn { get; set; }
     }
@@ -55,4 +70,5 @@ namespace Generics
 
         }
     }
+
 }
