@@ -74,7 +74,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KelimeAdet", "KelimeAdet\Ke
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendSmsMessage", "SendSms\SendSmsMessage.csproj", "{ED352A54-86B0-4FB5-99C7-BAF5299BBF81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoApp", "MongoApp\MongoApp.csproj", "{F268BB4A-343F-40A8-9D22-EBFEF38DB597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoApp", "MongoApp\MongoApp.csproj", "{F268BB4A-343F-40A8-9D22-EBFEF38DB597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerMiddleware", "LoggerMiddleware\LoggerMiddleware.csproj", "{261F79B1-4741-4BE6-9536-AAFDF9BE9022}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -210,6 +212,10 @@ Global
 		{F268BB4A-343F-40A8-9D22-EBFEF38DB597}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F268BB4A-343F-40A8-9D22-EBFEF38DB597}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F268BB4A-343F-40A8-9D22-EBFEF38DB597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261F79B1-4741-4BE6-9536-AAFDF9BE9022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261F79B1-4741-4BE6-9536-AAFDF9BE9022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261F79B1-4741-4BE6-9536-AAFDF9BE9022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261F79B1-4741-4BE6-9536-AAFDF9BE9022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
