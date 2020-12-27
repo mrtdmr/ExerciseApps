@@ -78,13 +78,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoApp", "MongoApp\MongoA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MusicMarket", "MusicMarket", "{219518BD-C1A7-4F87-BEC4-CD08322C0998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicMarket.Api", "MusicMarket.Api\MusicMarket.Api.csproj", "{80F4D1C8-59BB-4A39-BC0F-8ED1E2710952}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMarket.Api", "MusicMarket.Api\MusicMarket.Api.csproj", "{80F4D1C8-59BB-4A39-BC0F-8ED1E2710952}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicMarket.Core", "MusicMarket.Core\MusicMarket.Core.csproj", "{A02C36AB-9030-4861-A845-649543E4F57D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMarket.Core", "MusicMarket.Core\MusicMarket.Core.csproj", "{A02C36AB-9030-4861-A845-649543E4F57D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicMarket.Services", "MusicMarket.Services\MusicMarket.Services.csproj", "{E4798810-5759-4FC9-8EB7-414C99EF14C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMarket.Services", "MusicMarket.Services\MusicMarket.Services.csproj", "{E4798810-5759-4FC9-8EB7-414C99EF14C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicMarket.Data", "MusicMarket.Data\MusicMarket.Data.csproj", "{395D3C67-70AA-443B-BCFD-84DFCB4AF74F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMarket.Data", "MusicMarket.Data\MusicMarket.Data.csproj", "{395D3C67-70AA-443B-BCFD-84DFCB4AF74F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisApp", "RedisApp\RedisApp.csproj", "{63F38D56-7E36-4DA8-B963-EF52D04406BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -236,6 +238,10 @@ Global
 		{395D3C67-70AA-443B-BCFD-84DFCB4AF74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{395D3C67-70AA-443B-BCFD-84DFCB4AF74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{395D3C67-70AA-443B-BCFD-84DFCB4AF74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F38D56-7E36-4DA8-B963-EF52D04406BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F38D56-7E36-4DA8-B963-EF52D04406BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F38D56-7E36-4DA8-B963-EF52D04406BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F38D56-7E36-4DA8-B963-EF52D04406BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
