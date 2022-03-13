@@ -7,7 +7,7 @@ namespace Abstraction
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Product p = new Product();
+            //Product p = new Product();
         }
     }
     interface IModel
@@ -24,9 +24,21 @@ namespace Abstraction
         public int Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public int Size { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public abstract string GetNameSurname();
     }
-    class Product : Model
+    abstract class Product : Model
     {
-
+        public int CalculateSalary()
+        {
+            return 5000;
+        }
+    }
+    class Units : Product
+    {
+        public override string GetNameSurname()
+        {
+            Console.WriteLine(CalculateSalary());
+            throw new NotImplementedException();
+        }
     }
 }

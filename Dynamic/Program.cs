@@ -1,4 +1,6 @@
-﻿namespace Dynamic
+﻿using System;
+
+namespace Dynamic
 {
     class Program
     {
@@ -19,9 +21,14 @@
             //dynamic b = 5;
             //var c = a+b;
 
-            int a = 5;
-            dynamic b = a;
-            long l = b;
+            var name = "murat";
+            name = "demir";
+            //name = 424;
+            dynamic surname = "Murat";
+            surname = 1500;
+            int[] myArray = { 1, 2, 3 };
+            Array.Resize<int>(ref myArray, myArray.Length + 1);
+            myArray[3] = 1; 
         }
     }
 }
